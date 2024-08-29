@@ -1,0 +1,597 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Header */
+header{
+    background-color: black;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+header h1{
+    display: inline-block;
+    width: 40%;
+    color: white;
+    padding-top: 5px;
+    margin-left: 20%;
+    padding-bottom: 10px;
+}
+span{
+    color: orange;
+    
+}
+header a{
+    display: inline-block;
+    margin: 10px;
+    color: gray;
+    text-decoration: none;
+}
+ header a:hover {
+    color: orange;
+}
+.orange{
+    color: orange;
+}
+/* First Section */
+.content{
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.second{
+    background-image:url(../imgs/bg.jpg) ;
+    width: 100%;
+    height: 660px;
+    background-size:cover;
+}
+div.transparent{
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 100%;
+    height: 100%;
+}
+.left{
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.left h2{
+    color: white;
+    font-size: 40px;
+}
+.left hr{
+    width: 20%;
+}
+.left h3{
+    color: white;
+    padding: 15px 0px;
+}
+.left h4{
+    color: white;
+    padding: 15px 0px;
+    font-weight: 200;
+}
+.left button , .white-button{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+ .left button:hover , .white-button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.left a{
+    text-align: center;
+    padding: 0px;
+}
+.right{
+    width: 25%;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+.right h3{
+    color: black;
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+.right input{
+    display: block;
+    border: 0;
+    border-bottom: 1px solid grey;
+    height: 30px;
+    width: 80%;
+    margin: 10px auto;
+    text-align: left;
+}
+.right button{
+    border: 0;
+    background-color: rgb(250, 184, 61);
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    position: relative;
+    right: 5px;
+    bottom: 0px;
+}
+.right button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.right a{
+    width: 100%;
+    padding: 0px;
+    height: 50px;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+.left-footer{
+    padding-top: 20px;
+    width: 40%;
+    display: inline-block;
+}
+.left-footer h4{
+    font-weight: 100;
+    color: gray;
+}
+.right-footer{
+    display: inline-block;
+    margin-left: 50px;
+}
+.right-footer a{
+    color: grey;
+    width: 20px;
+    height: 20px;
+}
+.right-footer a:hover{
+    color: orange;
+}
+.right-footer i.social-media{
+    margin: 0 20px;
+    font-size: 40px;
+}
+.right-footer i.social-media:hover{
+    color: orange;
+    cursor: pointer;
+}
+.footer-content{
+    margin-left:19% ;
+}
+/* Second section */
+.container{
+    background-color:rgb(226, 224, 224);
+    width: 100%;
+    margin-top: 50px;
+}
+.Left{
+    width: 100px;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.Left button{
+    display: block;
+    background-color: rgb(42, 40, 40);
+    border: 0;
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin: 2px 0;
+}
+.Left button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.Mid{
+    display: inline-block;
+    width: 450px;
+    margin: 100px;
+    margin-right: 25px;
+}
+.Mid p{
+    margin-top:20px ;
+    color: gray;
+}
+.Mid button , .orange-button{
+    border: 0;
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    color: white;
+    margin-top: 50px;
+}
+.Mid button:hover , .orange-button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.Right{
+    display: inline-block;
+    width: 100px;
+}
+
+
+ /* Third Section */
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.container1{
+    overflow: hidden;
+    margin-top: 50px;
+    background-color:rgb(255, 255, 255);
+}
+.left1{
+    float: left;
+    width: 40%;
+    margin-right:10%;
+    margin-left: 5%;
+}
+.right1{
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+}
+.right1 h2.main{
+    margin: 20px 0;
+}
+.right1 hr{
+    border-top:2px solid orange;
+    width: 15%;
+}
+.right1 p.main{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.right1 p{
+    margin: 10px 0;
+    color: grey;
+}
+.sub-p{
+    margin-left: 100px;
+}
+i.orange-circle{
+    float: left;
+    color: orange;
+    width: 35px;
+    height: 35px;
+    border: 1px solid orange;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+/* Third Section */
+
+.Left2 {
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 10%;
+}
+.Left2 img{
+    width: 100%;
+    margin-top: 50px;
+}
+.Right2{
+    width: 40%;
+    display: inline-block;
+    margin-left: 5%;
+}
+.Right2 h2{
+    margin: 10px 0;
+    margin-bottom: 10px;
+}
+.Right2 hr{
+    width: 20%;
+    color: orange;
+    margin: 5px 0 ;
+}
+.Right2 p{
+    margin: 0;
+    margin-left: 70px;
+    color: grey;
+}
+p.general{
+    margin: 20px 0;
+}
+.Right2 h3{
+    display: inline-block;
+    margin-bottom: 0px;
+    padding: 0;
+}
+.upload i , .download i{
+    color: orange;
+    width: 35px;
+    height: 35px;
+    border: 1px solid orange;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+/* Forth Section */
+.container2{
+    background-color: rgb(226, 224, 224);
+    overflow: hidden;
+    height: 500px;
+}
+.left2{
+    width: 30%;
+    float: left;
+    margin: 10%;
+}
+.left2 hr{
+    border-top:2px solid orange;
+    width: 15%;
+    margin: 20px 0;
+}
+.left2 p{
+    margin: 40px 0;
+    color: grey;
+    
+}
+.right2{
+    width: 40%;
+    float: right;
+    margin: 5%;
+}
+/* Fifth Section */
+.container3{
+    clear: both;
+}
+.top{
+    
+    text-align: center;
+}
+.top h2{
+    padding-top: 50px;
+    font-size: 50px;
+}
+.top hr{
+    border-top: 5px solid orange;
+    width: 10%;
+    margin: 20px 45%;
+}
+.top p{
+    color: grey;
+    margin-bottom: 20px;
+}
+.bottom{
+    overflow: hidden;
+    margin-top: 50px;
+}
+.bottom div{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.b-left{
+    margin-left: 5%;
+}
+.bottom i{
+    color: orange;
+    font-size: 50px;
+    border: 1px solid orange;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+.bottom h3{
+    margin: 40px;
+}
+.bottom p{
+    color: gray;
+    margin-bottom: 50px;
+}
+
+/* section 6 */
+.s6-top{
+    margin-bottom: 150px;
+}
+.section6{
+    background-color: rgb(226, 224, 224);
+    overflow: hidden;
+}
+.s6-bot-card {
+    background-color: white;
+    width: 25%;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    
+}
+.L{
+    margin-left: 12.5%;
+}
+.M{
+    position: relative;
+    bottom: 50px;
+}
+.s6-bot-card  hr{
+    border-top: px solid orange;
+}
+.s6-bot-card h3{
+    background-color:rgb(52, 52, 52) ;
+    color: white;
+    margin: 2px 0;
+    padding: 15px;
+}
+.price{
+    background-color: rgb(52, 52, 52);
+    color: white;
+}
+.price h2{
+    padding: 10px;
+    font-size: 50px;
+}
+.price h3{
+    background-color: orange;
+    font-size: 15px;
+    min-height: 10px;
+}
+.price p{
+    color: gray;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.dolar-sign{
+    font-size: 25px;
+}
+.info h4{
+    color: gray;
+    padding: 20px;
+}
+.info hr{
+    border-top: 1px solid rgb(225, 225, 225);
+    
+}
+/* section 7 */
+.s7-bot{
+    overflow: hidden;
+}
+.s7-bot-comment{
+    margin-left: 0%;
+}
+.s7-bot-comment{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    margin-left:10% ;
+    margin-bottom: 70px;
+}
+.comment-text{
+    background-color: rgb(244, 238, 238);
+    position: relative;
+    padding: 10px;
+}
+.tr{
+    border: 10px solid transparent;
+    border-top-color:rgb(244, 238, 238) ;
+    width: 5px;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+}
+.user-info{
+    overflow: hidden;
+}
+.user-info img{
+    float: left;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.user-info h3{
+    margin-top: 10px;
+}
+.user-info p{
+    color: grey;
+}
+/* section8 */
+.section8{
+    background-image: url(../imgs/buildings.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.section8 button{
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    margin-top: 15px;
+}
+.section8 h2{
+    margin: 40px;
+}
+.section8 p{
+    margin: 40px;
+}
+/* section 9 */
+.section9{
+    overflow: hidden;
+}
+.section9 form{
+    width: 40%;
+    margin-left: 10%;
+    float: left;
+    display: inline;
+}
+form input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    border-bottom: 1px solid grey;
+}
+.message input{
+    width: 40%;
+    height: 150px;
+    margin-left: 3%;
+    border: 0;
+    border-bottom: 1px solid grey;
+}
+.section9 button{
+    clear: both;
+    width: 20%;
+    margin: 50px 40% ;
+}
+/* last section */
+.last{
+    background-color: black;
+}
+.last-icons , a{
+    color: white;
+    margin: 5px;
+    padding-top: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+.last-icons a:hover{
+    color: orange;
+}
+.last p{
+    color: grey;
+    text-align: center;
+}
+.go-up a{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    color: black;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.go-up i{
+    font-size: 30px;
+}
+.go-up a:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+header{
+    background-color: black;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    color: white;
+}
+header span{
+    color: blue;
+}
+header h1{
+    transition: all 600ms;
+}
+header h1:hover{
+    cursor: pointer;
+    transform: scale(1.2)  rotate(360deg);
+}
+.cont{
+    background-image: url(../imgs/background.jpg);
+    background-attachment: fixed;
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.616);
+}
+.siteCard h4{
+    padding:5px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.468);
+}
+.siteCard p {
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.468);
+}
+.siteCard a{
+    margin-bottom: 10px;
+}
+.siteCard{
+    transition: all 400ms;
+    overflow: hidden;
+    padding: 0;
+}
+.siteCard:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 15px;
+}
+.siteCard img{
+    z-index: 0;
+    transform: scale(1);
+    transition: all 400ms;
+}
+.cardText{
+    z-index: 1;
+}
+.siteCard div{
+    background-color: white;
+}
+.siteCard:hover img{
+    transform: scale(1);
+}
+@media (min-width:992px) {
+    .cont{
+        height: 80vh;
+    }
+}
+p a{
+    text-decoration: none;
+    transition: all 400ms;
+}
+p a:hover{
+    color: rgb(21, 0, 113);
+}
+footer a{
+    color: white;
+    transition: all 400ms;
+    padding: 15px;
+    font-size: 25px;
+}
+footer{
+    padding: 20px;
+}
+footer a:first-child:hover{
+    color: bleu;
+}
+footer a:nth-child(2):hover{
+    color: blueviolet;
+}
+footer a:nth-child(3):hover{
+    color: greenyellow;
+}
+footer a:nth-child(5):hover{
+    color: rgb(59, 160, 255);
+}
